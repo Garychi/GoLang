@@ -1,0 +1,22 @@
+[app]
+env = "local"
+ip = "127.0.0.1"
+host = "localhost:8000"
+port = ":8000"
+secure = false
+debug = true
+
+[database_master]
+db = "Lv"
+host = "db"
+port = "3306"
+username = "root"
+password = "qwe123"
+
+[database_slave]
+db = "Lv"
+host = "db"
+port = "3306"
+username = "root"
+password = "qwe123"
+
